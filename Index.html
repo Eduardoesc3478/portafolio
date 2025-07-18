@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Currículum de Programador</title>
+  <link rel="stylesheet" href="./styles/index.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#datos">Datos Generales</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#formacion">Formación</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+  <header>
+    <img src="./styles/perfil.jpg" alt="Foto de perfil" class="foto-perfil" />
+    <h1>Carlos Escobar - Desarrollador Web</h1>
+    <p>Frontend | Backend | Fullstack</p>
+  </header>
+
+  <main>
+    <section id="datos">
+      <h2>
+        <img src="./styles/persona.png" alt="Icono datos" class="icono" />
+        Datos Generales
+      </h2>
+      <div class="mitad-seccion">
+        <div class="mitad-foto">
+          <img src="./styles/datos.jpg" alt="Foto datos" class="foto-seccion" />
+        </div>
+        <div class="mitad-texto">
+          <p><strong>Nombre:</strong> Eduardo Escobar</p>
+          <p><strong>Email:</strong> Eduardo.escobar3478@gmail.com</p>
+          <p><strong>Ubicación:</strong> Ciudad de Guatemala, Guatemala</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades">
+      <h2>
+        <img src="./styles/computadora.png" alt="Icono habilidades" class="icono" />
+        Habilidades
+      </h2>
+      <div class="mitad-seccion">
+        <div class="mitad-texto">
+          <ul>
+            <li><strong>Estructura: </strong>HTML, CSS, JavaScript</li>
+            <li><strong>Frontend: </strong>React, Vue</li>
+            <li><strong>Backend: </strong>Node.js, Express</li>
+            <li><strong>Base de datos: </strong>MongoDB, MySQL</li>
+            <li><strong>Repositorios: </strong>Git, GitHub</li>
+          </ul>
+        </div>
+        <div class="mitad-foto">
+          <img src="./styles/hablilidades.png" alt="Foto habilidades" class="foto-seccion" />
+        </div>
+      </div>
+    </section>
+
+    <section id="formacion">
+      <h2>
+        <img src="./styles/formacion.png" alt="Icono formación" class="icono" />
+        Formación
+      </h2>
+      <div class="mitad-seccion">
+        <div class="mitad-foto">
+          <img src="./styles/Formacion.jpg" alt="Foto formación" class="foto-seccion" />
+        </div>
+        <div class="mitad-texto">
+          <ul>
+            <li>Primaria - Escuela de la PNC (2015 - 2018)</li>
+            <li>Educacion Basica - Fundacion Kinal (2019 - 2022)</li>
+            <li>Educacion de diversificado - Fundacion Kinal (2023 - 2025)</li>
+            <li>Redes - CCNA (2023)</li>
+            <li>Soporte tecnico - IT Essentials (2023)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>
+        <img src="./styles/contacto.png" alt="Icono contacto" class="icono" />
+        Contacto
+      </h2>
+      <p>¿Te interesa contactarme? Haz clic en el botón para ver mis datos.</p>
+      <button onclick="mostrarContacto()">Mostrar Contacto</button>
+      <div class="contacto-info" id="contactoInfo">
+        <p><strong>Email:</strong> juanperez@email.com</p>
+        <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/juanperez" target="_blank">linkedin.com/in/juanperez</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/juanperez" target="_blank">github.com/juanperez</a></p>
+      </div>
+    </section>
+  </main>
+  <script src="./scripts/scripts.js"></script>
+</body>
+</html>
+
